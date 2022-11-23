@@ -1,0 +1,41 @@
+	Hello, everyone. My name is Aman Urumbekov. I am a student of KSTU, I am studying in the first year at the Faculty of Applied Mathematics and Computer Science / Analysis and Big Data Processing. Also I am Computer Vision Engineer and Competitive Programmer. 
+	
+	Today I made a model that finds my cat in photos and videos and put him in the box.
+	First, let me tell you about my computer, on which I have trained neural network.
+	My system configuration is:
+	-32 GB of RAM.
+	-GPU is RTX 3060 with 12 GB of VRAM.
+	-CPU is AMD Ryzen 5 3600.
+	
+	Let's look at the dataset on which I trained the neural network.
+	I trained the model on my custom dataset. This dataset consists of 80 labeled photos for training and 20 labeled photos for validation.
+	
+	I took some photos on my phone, and after I reduced their quality. And finally, I labeled up them with makesense.ai.
+	
+	Let's look at the functionality of this site and try to use an example to label up a photo.
+
+	You just need to press button "Get Started" and drop your photos. Now, we need to choose for what type of task we want to solve with this labels. Insert out labels. With few clicks we can label up some photos. And lastly just export out label.
+	
+	Let me show you the dataset I ended up with.
+	
+	So, in this project I used the YOLOv5x6 neural network. 
+	
+	What YOLOv5 is?
+	YOLOv5 🚀 is a family of compound-scaled object detection models trained on the COCO dataset, and includes simple functionality for Test Time Augmentation (TTA), model ensembling, hyperparameter evolution, and export to ONNX, CoreML and TFLite. 
+	With this Neural Network we can detect many objects in one picture. But I try detect only my cat.
+	
+	Now let's see my code.
+	
+	In this block I import all requirement modules. All list of modules in written in requirement.txt
+	
+	In this block of code. I trained neural network on my dataset.
+	I used batch size 8 and 100 epochs. Now, we can see architecture of this neural network. It has 140 million parameters and 575 layers.
+
+	This is the information of every epoch of training.
+
+	In finally block of code, I try use my new Neural Network on video.
+	
+	Now let's see the results. As we can see, in the photos, the model perfectly detect the my cat. And here we see that the model did just as well with the detection of my cat in the video.
+	
+	This concludes my report, thank you all for your attention, does anyone have any questions?
+	
